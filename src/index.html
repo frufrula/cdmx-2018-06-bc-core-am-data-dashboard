@@ -2,10 +2,100 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Dashboard</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Laboratoria Analitics</title>
+    <link rel = "stylesheet" href = "style.css" />
   </head>
   <body>
-    <script src="main.js"></script>
+      <header>
+        <div id = "search-bar"></div>
+      </header>
+      
+      <div>
+        <section>
+          <div class = "login-boxes">
+            <img src = "" id ="logo">
+            <form>
+              <label for="user-email" class = "form-labels">Correo electrónico</label>
+              <input type = "text" id = "user-email" placeholder = "tu correo electrónico">
+
+              <label for="user-password" class = "form-labels">Contraseña</label>
+              <input type = "password" id = "user-password" placeholder = "tu contraseña">
+
+              <input type = "submit" id = "login-button" class = "all-buttons" name = "" value ="Iniciar Sesión">
+
+              <a href="#">¿Olvidaste tu contraseña?</a>
+              <a href="#">¡Regístrate!</a>
+
+            </form>
+          </div>
+          <!-- Dar al atributo for el ID del input asociado: cuando haces click en el texto, tambien se selecciona-->
+           
+
+
+
+
+          <div class = "login-boxes">
+            <form>
+              <label for = "campus-selection" class = "form-labels">Selecciona tu sede</label>
+              <input type = "text" id = "campus-selection" name = "city-name" list = "campus">
+              <select id = "campus">
+                  <option value = "">
+                <option value = "Ciudad de México">
+                <option value = "Lima">
+                <option value = "Santiago">
+              </select>
+      
+              <label for = "gen-selection" class = "form-labels">Selecciona tu generación</label>
+              <input type = "text" id = "gen-selection" name="all-generations" list = "generations">
+              <select id = "generations">
+                <option value = "">
+                <option value = "Sexta Generación">
+                <option value = "Quinta Generación">
+                <option value = "Cuarta Generación">
+                </select>
+
+              <input type = "button" value = "Continuar" class = "all-buttons">
+
+            </form>
+          </div>
+      
+          <div id = "sidebar-wrapper">
+              <nav>
+                <!-- <button class="all-buttons">Menu</button> -->
+                  <ul>
+                      <li>Home</li>
+                      <li>Perfil</li>
+                      <li>Sede</li>
+                        <ol>6ta Generación</ol>
+                        <ol>5ta Generación</ol>
+                        <ol>4ta Generación</ol>
+                      <li>Cerrar Sesión</li>
+                  </ul>
+              </nav>
+            </div>
+      
+      
+          <!-- <section></section>  AND   <aside></aside>
+            OR <article></article> -->
+      
+          <article>
+            <h2></h2>
+            <div>
+              <ul>
+                <li>tab</li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+      
+      
+      
+          </article>
+      
+        </section>
+      </div>
+
+
+    <script src = "main.js"></script>
   </body>
 </html>
