@@ -27,13 +27,13 @@ collective acces to the information.
 
 >way to immediately keep track of sales and harness the data.
  A data dashboard publicly displays all of your important data in real time.
- A data dashboard utilises data visualisation to display a combination of company metrics, and by using an API you can integrate accounting software, sales spreadsheets, customer relationship management (CRM) systems, email, website analytics and other systems into your dashboard display.
+ A data dashboard utilises data visualisation to display a combination of company metrics, and by using an API you can integrate           accounting software, sales spreadsheets, customer relationship management (CRM) systems, email, website analytics and other systems       into your dashboard display.
 
- “A data dashboard allows you to move in an agile way as a young company when you’re experimenting with a lot of different things,” says J. Scott Zimmerman, founder and CEO at Xola, a company that provides booking and marketing systems for tours and activity companies. “We set goals and have real-time feedback.”
+>“A data dashboard allows you to move in an agile way as a young company when you’re experimenting with a lot of different things,” says   J. Scott Zimmerman, founder and CEO at Xola, a company that provides booking and marketing systems for tours and activity companies.     “We set goals and have real-time feedback.”
 
- Data dashboards are fluid to assist in the management of information. Through data visualisation, you can view sales, downloads, reviews and rankings. The dashboard also allows you to monitor customer feedback, staff goals and control servers from multiple providers to get real-time alerts. Studies show that when employees know their performance is being watched publicly, they improve their work.
+>Data dashboards are fluid to assist in the management of information. Through data visualisation, you can view sales, downloads, reviews   and rankings. The dashboard also allows you to monitor customer feedback, staff goals and control servers from multiple providers to     get real-time alerts. Studies show that when employees know their performance is being watched publicly, they improve their work.
 
- “Being able to have graphs and other data updating live on screens around the office is invaluable in spotting changes in trends and picking up on issues before they become a problem,” says Adrian Sevitz, CTO at Vzaar, which provides video hosting platforms.
+>“Being able to have graphs and other data updating live on screens around the office is invaluable in spotting changes in trends and       picking up on issues before they become a problem,” says Adrian Sevitz, CTO at Vzaar, which provides video hosting platforms.
 
 >[An article(2013) from Travis Pearson and Rasmus Wegener of Bain & Company] based on a study performed by the same companie states that:
  *"Early adopters of Big Data analytics have gained a significant lead  over the rest of the corporate world. Examining more than 400 large companies, we found that those with the most advanced analytics capabilities are outperforming competitors by wide margins (see Figure 1)."*
