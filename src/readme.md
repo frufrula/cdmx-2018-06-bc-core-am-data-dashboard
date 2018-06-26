@@ -1,17 +1,3 @@
-"Para transformar datos en información necesitamos procesarlos y entenderlos. Una manera muy sencilla de hacerlo es creando visualizaciones. Las empresas líderes de hoy generan visualizaciones dinámicas de su data que les permiten entender mejor su negocio y tomar decisiones apropiadas." ¿fuente???
-
-Un espacio desde el cual un usuario puede tener acceso a la información y controles más relevantes,
-
-diseñar y construir una interfaz web donde podamos visualizar y manipular data.
-
-
-#HACER IMAGEN DE ESTILOS(FUENTE DISTINTOS TAMAÑOS, COLOR PALETTE, LOGO, IMG <NAV>, DEMAS IMGs)
-#ESTILO DE GRÁFICAS
-
-#DOCUMENTAR PROCESO
-
-
-
 
 #Training Manager Data Dashoboard
 ----------------------------------------------------------------------------------------------------------------------
@@ -35,7 +21,8 @@ collective acces to the information.
 
  “Being able to have graphs and other data updating live on screens around the office is invaluable in spotting changes in trends and picking up on issues before they become a problem,” says Adrian Sevitz, CTO at Vzaar, which provides video hosting platforms.
 
->[An article(2013) from Travis Pearson and Rasmus Wegener of Bain & Company] based on a study performed by the same companie states that:
+>[An article(2013) from Travis Pearson and Rasmus Wegener of Bain & Company](http://www.bain.com/publications/articles/big_data_the_organizational_challenge.aspx) 
+ based on a study performed by the same companie states that:
  *"Early adopters of Big Data analytics have gained a significant lead  over the rest of the corporate world. Examining more than 400 large companies, we found that those with the most advanced analytics capabilities are outperforming competitors by wide margins (see Figure 1)."*
  (http://www.bain.com/publications/articles/big_data_the_organizational_challenge.aspx)
 
@@ -51,7 +38,9 @@ https://www.bbc.com/news/business-26383058
 
     This proyect was created to improve the access of Laboratoria Training Managers to their students information about their individual learning progress.
 
-As an only-women programming bootcamp, Laboratioria pioneering in the latinamerican Tech Community
+
+Laboratoria, is a non-profit organization focused on training young low-income women as programmers and experts in web development(Front-end and UX Design), with the aim of promoting their employment in the Tech World. Structured as a 6 month bootcamp and promotes the formation of women in Lima, Arequipa, Santiago de Chile, Mexico City, Guadalajara and São Paulo. In order to improve constantly teaching tequniques and try new agile methods, 
+
 the need for managing all the data for applicants and students grows--> management of quantitative data
 Training Managers need to acces and manipulate data in a agile way and visualize it in real time
 In an attempt to help the staff to be able to monitor students advances and overview their achiements,
@@ -143,3 +132,18 @@ Institutional colors!
     Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project.
 
     Anything else that seems useful
+
+    "Para transformar datos en información necesitamos procesarlos y entenderlos. Una manera muy sencilla de hacerlo es creando visualizaciones. Las empresas líderes de hoy generan visualizaciones dinámicas de su data que les permiten entender mejor su negocio y tomar decisiones apropiadas." ¿fuente???
+
+Un espacio desde el cual un usuario puede tener acceso a la información y controles más relevantes,
+
+diseñar y construir una interfaz web donde podamos visualizar y manipular data.
+
+
+#HACER IMAGEN DE ESTILOS(FUENTE DISTINTOS TAMAÑOS, COLOR PALETTE, LOGO, IMG <NAV>, DEMAS IMGs)
+#ESTILO DE GRÁFICAS
+
+#DOCUMENTAR PROCESO
+
+
+
