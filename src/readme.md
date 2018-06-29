@@ -156,7 +156,6 @@ WHO SHOULD USE THE DATADASHBOARD?
     Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project.
 
     Anything else that seems useful
-<<<<<<< HEAD
 
     "Para transformar datos en información necesitamos procesarlos y entenderlos. Una manera muy sencilla de hacerlo es creando visualizaciones. Las empresas líderes de hoy generan visualizaciones dinámicas de su data que les permiten entender mejor su negocio y tomar decisiones apropiadas." ¿fuente???
 
@@ -172,5 +171,3 @@ diseñar y construir una interfaz web donde podamos visualizar y manipular data.
 
 
 
-=======
->>>>>>> 052fa8086f1ef8a8e0b46176a1e3b14ed3806179
