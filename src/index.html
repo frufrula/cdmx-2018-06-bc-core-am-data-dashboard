@@ -3,93 +3,76 @@
   <head>
     <meta charset="utf-8">
     <title>Laboratoria Analitics</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  </head>
+    <link rel = "stylesheet" href = "style.css" />
+    </head>
+
   <body>
-      <header>
-        <div id="search-bar"></div>
-      </header>
-      
+    <div class="container">
+      <div class="row">
+        <!-- <img id="pink-arrow" src="../img/Laboratoria_corchetes-26 (1) (1).png" -->
+        <!-- <img src="../img/arrowspink.png" class="img-fluid" alt="Responsive image">-->
 
-      
-      <div>
-        <section>
-          <div class="login-boxes">
-            <img src="" id="logo">
-            <form>
-              <label for="user-email" class="form-labels">Correo electrónico</label>
-              <input type="text" id="user-email" placeholder="tu correo electrónico">
+        <div class="wrapper1" id="login-wrapper">
+          <img src="../img/logoLaboratoriasmall.png" class="img-fluid" alt="Responsive image">
+          
+          
+          <form>
+            E-mail
+            <input class="shadow p-3 mb-5 bg-white rounded" type="email" id="userCapture" name="email">
+          </form>
+          
+          <form>
+            Password
+            <input class="shadow p-3 mb-5 bg-white rounded" type="password" id="passwordCapture" name="psw">
+          </form>
+          
+          <button  id="login-button" class="btn btn-dark">Iniciar Session</button>
+          
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+        
 
-              <label for="user-password" class="form-labels">Contraseña</label>
-              <input type="password" id="user-password" placeholder="tu contraseña">
+        <div class="wrapper2" id="select-wrapper">
+          <img src="../img/logoLaboratoriasmall.png" class="img-fluid" alt="Responsive image">
+          
+          <form>
+            Sede
+            <select class="shadow p-3 mb-5 bg-white rounded" id="selectCampus">
+              <option value="">Lima</option>
+              <option value="">México</option>
+              <option value="">Santiago</option>
+              <option value="none" disabled selected hidden>Escoge una sede...</option>
+            </select>
+          </form>
+          
+          <form>
+            Generación
+            <select class="shadow p-3 mb-5 bg-white rounded" id="selectGen">
+              <option value="">6ta generación</option>
+              <option value="">5ta generación</option>
+              <option value="">4ta generación</option>
+              <option value="none" disabled selected hidden>Escoge una generación...</option>
+            </select>
+          </form>
 
-              <input type="submit" id="login-button" class="all-buttons" name="" value ="Iniciar Sesión">
+          <button  id="submit-button" class = "btn btn-dark">Enviar</button>
+        </div>
 
-              <a href="#">¿Olvidaste tu contraseña?</a>
-              <a href="#">¡Regístrate!</a>
-
-            </form>
-          </div>
-          <!-- Dar al atributo for el ID del input asociado: cuando haces click en el texto, tambien se selecciona-->
-<!-- SEAGREGA EL BOOTSTRAP -->
-          <div class="login-boxes">
-            <form>
-              <label for="campus-selection" class="form-labels">Selecciona tu sede</label>
-              <input type="text" id="campus-selection" name="city-name" list="campus">
-              <select id="campus">
-                <option value="Ciudad de México">
-                <option value="Lima">
-                <option value="Santiago">
-              </select>
-      
-              <label for="gen-selection" class="form-labels">Selecciona tu generación</label>
-              <input type="text" id="gen-selection" name="all-generations" list="generations">
-              <select id="generations">
-                <option value="Sexta Generación">
-                <option value="Quinta Generación">
-                <option value="Cuarta Generación">
-                </select>
-
-              <input type="button" value="Continuar" class="all-buttons">
-
-              <button id="fetchbtn">Cargar JSON</button>
-
-            </form>
-          </div>
-      
-              <nav>
-                <!-- <button class="all-buttons">Menu</button> -->
-                  <ul>
-                      <li>Home</li>
-                      <li>Perfil</li>
-                      <li>Sede</li>
-                        <ol>6ta Generación</ol>
-                        <ol>5ta Generación</ol>
-                        <ol>4ta Generación</ol>
-                      <li>Cerrar Sesión</li>
-                  </ul>
-              </nav>
-
-            <aside>
-              <div id="print-html"></div>
-            </aside>
-            
-
-            <footer>
-
-            </footer>
-      
-      
-        </section>
       </div>
-
-
-
-
-    <script src="main.js"></script>
+    </div>
+    
+    <div id="resultContainer"></div>
+    
+    <footer></footer>
+    
+    
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src = "data.js"></script>
+    <script src = "main.js"></script>
   </body>
 </html>
