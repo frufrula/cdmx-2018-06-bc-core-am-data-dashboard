@@ -1,53 +1,40 @@
 
 #Training Manager Data Dashoboard
 -----------------------------------------
-IMAGEN SCREENSHOT DE COMO QUEDÓ AL FINAL
+<img>
 
 -----------------------------------------------------------------------------
 
 ##Introduction
-----------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
     A little info about your project and/ or overview that explains what the project is about.
 
-
-Daily, a huge amount of data is created and the necessity of organizing, filtering and manipulating the data or precisely databases are growing exponentially. 
-collective access to the information.
-
-
->way to immediately keep track of sales and harness the data.
- A data dashboard publicly displays all of your important data in real time.
- A data dashboard utilises data visualisation to display a combination of company metrics, and by using an API you can integrate           accounting software, sales spreadsheets, customer relationship management (CRM) systems, email, website analytics and other systems       into your dashboard display.
-
-
->Data dashboards are fluid to assist in the management of information. Through data visualisation, you can view sales, downloads, reviews   and rankings. The dashboard also allows you to monitor customer feedback, staff goals and control servers from multiple providers to     get real-time alerts. Studies show that when employees know their performance is being watched publicly, they improve their work.
-
->“Being able to have graphs and other data updating live on screens around the office is invaluable in spotting changes in trends and       picking up on issues before they become a problem,” says Adrian Sevitz, CTO at Vzaar, which provides video hosting platforms.
+While a huge amount of new data is created on a daily basis, the necessity of organizing, filtering and manipulating this data grows exponentially at the same time. To ensure a simplified and agile way to collectively access the information, data management tools have been created to assist this task. One of them are Data Dashboards, which are particulary useful,as they display data statistics and visualisations to keep track of trends or issues in real time. They assist in the management of information 
+assits, monitor, control servers from multiple providers 
 
 >[An article(2013) from Travis Pearson and Rasmus Wegener of Bain & Company](http://www.bain.com/publications/articles/big_data_the_organizational_challenge.aspx) 
- based on a study performed by the same companie states that:
+ based on a study performed by the same companie states:
  *"Early adopters of Big Data analytics have gained a significant lead  over the rest of the corporate world. Examining more than 400 large companies, we found that those with the most advanced analytics capabilities are outperforming competitors by wide margins (see Figure 1)."*
  (http://www.bain.com/publications/articles/big_data_the_organizational_challenge.aspx)
 
+Therefor
 
-https://www.bbc.com/news/business-26383058
 
 
 ##Motivation
 ----------------------------------------------------------------------------------------------------------------------
     A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
 
-    
 
 This proyect was created to improve the access of Laboratoria Training Managers to their students information about their individual learning progress.
-
 
 Laboratoria, is a non-profit organization focused on training young low-income women as programmers and experts in web development(Front-end and UX Design), with the aim of promoting their employment in the Tech World. Structured as a 6 month bootcamp, it promotes the formation of women in Lima, Arequipa, Santiago de Chile, Mexico City, Guadalajara and São Paulo. In order to constantly improve their teaching tequniques and try new agile methods, STUDENTS PROGRESS HAS TO BE MONITORED AND ANALIZED. 
 
 
 the need for managing all the data for applicants and students grows--> management of quantitative data
 Training Managers need to acces and manipulate data in a agile way and visualize it in real time
-In an attempt to help the staff to be able to monitor students advances and overview their achiements,
-this data dashboard was created to help  tp manage big volumes of data and translate it into pictoral forms.
+In an attempt to help the staff to be able to monitor students advances and overview their achiements, this data dashboard was created to help  tp manage big volumes of data and translate it into pictoral forms.
+
 .....visually simplyfied graphics. 
 Helps to: structure, relate, filter and compare data
           prioritize data in diffrent ways
@@ -74,14 +61,6 @@ FLEXIBLE CONTENT
 ENSURE USABILITY AND SATISFACTION
 
 
-porcentaje general de completitud de c/estudiante
-    * Seleccionar estudiantes mostrando reporte de progreso:
-        * Mostrar porcentaje de completitud de todos los temas
-        * Calcular porcentaje de tiempo completado de cada tema
-        * Listar subtemas de cada tema
-        * Poder filtrar subtemas completados y no-completados de cada tema
-        * Poder filtrar subtemas por tipos (ejercicios, lecturas y quizzes)
-
 
     1) Definición del producto
     En el README.md cuéntanos cómo pensaste y te acercaste a los usuarios al desarrollar tu producto (Tip: entrevistas) y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz. Es importante que detalles:
@@ -96,7 +75,7 @@ WHO SHOULD USE THE DATADASHBOARD?
 
 ##Build status
 ----------------------------------------------------------------------------------------------------------------------
-    Build status of continous integration i.e. travis, appveyor etc. Ex. -
+Continous integration 
 
 ##Code style
 ----------------------------------------------------------------------------------------------------------------------
@@ -125,6 +104,32 @@ WHO SHOULD USE THE DATADASHBOARD?
 
 
 ##TABLE OF CONTENTS
+
+```text
+./
+├── .editorconfig
+├── .eslintrc
+├── .gitignore
+├── README.md
+├── data 
+│   └── laboratoria.json
+├── img
+│   ├── logoLaboratoria.png
+│   ├── logoLaboratoriasmall.png
+├── package.json
+├── src
+│   ├── data.js
+│   ├── index.html
+│   ├── main.js
+│   └── style.css
+└── test
+|   ├── data.spec.js
+|   ├── fixtures.js
+|   ├── headless.js
+|   └── index.html
+└── ux
+    └── README.md
+```
 
 
 ##Code Example
@@ -169,5 +174,5 @@ diseñar y construir una interfaz web donde podamos visualizar y manipular data.
 
 #DOCUMENTAR PROCESO
 
-
+https://www.bbc.com/news/business-26383058
 
