@@ -5,7 +5,7 @@ body {
 
 }
 
-.wrapper {
+.wrapper1 {
     width: 50%;
     max-width: 500px;
     min-width: 60%;
@@ -15,6 +15,7 @@ body {
     margin-top: 9%;
     background-color: #fafafa;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 248, 248, 0.19);
+    display: block;
 }
 input[type=email] {
     width: 100%;
@@ -32,7 +33,37 @@ input[type=password]{
 #login-button{
     float: right;
 }
+
 form {
     font-size: 26px bold;
 }
 
+.wrapper2 {
+    width: 50%;
+    max-width: 500px;
+    min-width: 60%;
+    margin: auto;
+    padding: 30px;
+    height: auto;
+    margin-top: 9%;
+    background-color: #fafafa;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 248, 248, 0.19);
+}
+select {
+    width: 100%;
+    padding: 6px;
+    margin:8px 0;
+    border: 1px solid #ccc;
+}
+
+#submit-button{
+    float: right;
+}
+
+#login-wrapper {
+    display: block;
+}
+
+#select-wrapper {
+    display: none;
+}
