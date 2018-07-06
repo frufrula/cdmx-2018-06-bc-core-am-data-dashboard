@@ -1,4 +1,6 @@
-const json = "https://raw.githubusercontent.com/lindatablerosgessner/cdmx-2018-06-bc-core-am-data-dashboard/master/data/laboratoria.json"
+//MANIPULACION DE LA DATA
+
+const json = "https://raw.githubusercontent.com/lindatablerosgessner/cdmx-2018-06-bc-core-am-data-dashboard/master/data/laboratoria.json";
 
 
 //FUNCION CON FETCH
@@ -19,7 +21,6 @@ window.onload = () => {
 //INVOCAR FUNCION CON FETCH sede
 const drawCampus = (laboratoria) => {
     console.log(laboratoria);
-    
 
     // metodo: convertir Json  laboratoria.Json();
 

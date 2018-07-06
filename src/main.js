@@ -1,3 +1,5 @@
+//MANIPULACION DEL DOM
+
 const containerCampus = document.getElementById("resultContainer");
 
 
