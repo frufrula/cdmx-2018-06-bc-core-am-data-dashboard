@@ -1,21 +1,21 @@
+
 body {
   max-width: 100%;
-  background-color: #ffe521;
+  background-color: #ffe421;
+
 }
 
-.wrapper {
-  width: 50%;
-  max-width: 500px;
-  min-width: 60%;
-  margin: auto;
-  padding: 30px;
+#wrapper-first {
+  display: grid;
+  padding: 3%;
   height: auto;
-  margin-top: 9%;
-  background-color: white;
+  margin-top: 3%;
+  margin-right: 1rem!important;
+  margin-left: 1rem!important;
+  background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 248, 248, 0.19);
   display: block;
 }
-
 input[type=email] {
   width: 100%;
   padding: 6px;
@@ -23,25 +23,31 @@ input[type=email] {
   border: 1px solid #ccc;
 }
 
-input[type=password] {
+input[type=password]{
   width: 100%;
   padding: 6px;
-  margin: 8px 0;
+  margin:8px 0;
   border: 1px solid #ccc;
-}
-
-#login-button {
+} 
+#login-button{
   float: right;
 }
 
-form {
-  font-size: 26px bold;
-}
+#wrapper-second{
+  display: grid;
+  padding: 3%;
+  height: auto;
+  margin-top: 3%;
+  margin-right: 1rem!important;
+  margin-left: 1rem!important;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 248, 248, 0.19);
 
-select {
+}
+#selectCampus, #selectGen {
+  align-content: center;
   width: 100%;
-  padding: 6px;
-  margin: 8px 0;
+  margin:18px 0;
   border: 1px solid #ccc;
 }
 
@@ -49,13 +55,14 @@ select {
   float: right;
 }
 
-#login-wrapper {
+#wrapper-first {
   display: block;
 }
 
+/* 
 #select-wrapper {
   display: none;
-}
+} */
 
 .table {
   background-color: white;
