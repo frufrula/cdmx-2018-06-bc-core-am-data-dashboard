@@ -108,7 +108,7 @@ contiene el _boilerplate_.
 
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias y tests de ejemplo:
-
+<!-- 
 ```text
 ./
 ├── .editorconfig
@@ -130,7 +130,7 @@ como toda la configuración de dependencias y tests de ejemplo:
 |   └── index.html
 └── ux
     └── README.md
-```
+``` -->
 
 La carpeta `data/` dentro del _boilerplate_ incluye un extracto de la data que
 podemos usar tanto en los tests como en la interfaz en sí. Todos los datos
