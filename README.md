@@ -37,13 +37,17 @@ That is why it is important to supervise students advances reading time and comp
 ## Interview
 
 ------------------------------------------------------------------------------------------------
-An interview was held with one of the Training Managers of the Mexico City Campus, Lucile Baratier, in which she stated, that currently the staff was using spreadsheets of Excel, making a full analysis of a students progress very tedious. Sometimes they would have too many documents open to compare data or keep track of tendencies. This is why a data dashboard would be so useful to all the Laboratoria Staff, not only the Training Manager.
+An interview was held with one of the Training Managers of the Mexico City Campus, Lucile Baratier, in which she stated, that the staff was currently using Excel spreadsheets, making a full analysis of a students progress extremly tiresome. On occasions they would have to open too many documents in order to compare data or keep track of tendencies. This is why a data dashboard would be so useful to all the Laboratoria Staff, not only the Training Manager.
 
-Lucile also expressed how helpful it would be to be able to compare the statistics of the different campuses, so teaching strategies and other dynamics could be adjusted.
+Lucile also expressed how helpful it would be to be able to compare the statistics of different campuses, so teaching strategies and other dynamics could be adjusted.
 
-Having to count the students, oversee their assistance and general progress in different spreadsheets obstructs a more agile work pace, thus, one of the most needed features would be a table, where all the students  information can be displayed and filtered by generation and campus.
 
-It would be a plus point to be able to sort the students by name, last name, progress and activeness. Also, a detailed student profile would be very helpful, as the coaches and training manager need to supervise specific cases.
+Having to count the students, oversee their assistance and general progress in different spreadsheets obstructs a more agile work pace, thus, one of the most needed features would be a table, where all the students can be displayed and filtered by generation and campus.
+
+She also expressed the need to sort the students by name, last name, progress and activeness, as well as a detailed student profile to be able to supervise specific cases.
+
+[SEE INTERVIEW](https://youtu.be/u2U9bEp9p74)
+
 
 ## The Data
 
@@ -60,7 +64,7 @@ After the interview a sketch was elaborated, based on the obtained information, 
 
 ### Colours and Typography
 
-![Colours](src/img/colours.png)
+![Colours](src/img/colours.jpg)
 ![Typography](src/img/typography.png)
 
 [Laboratoria Official Colour and Typography Guide](https://www.behance.net/gallery/62847359/Laboratoria-Re-Branding)
@@ -91,6 +95,7 @@ Built with:
 * Visual Code Studio
 
 Other used tools:
+
 * Figma
 
 ## Table of Contents
@@ -105,24 +110,33 @@ Other used tools:
 ├── README.md
 ├── data
 │   └── laboratoria.json
-├── img
-│   ├── logoLaboratoria.png
-│   ├── logoLaboratoriasmall.png
 ├── package.json
 ├── src
+│   ├── css
+│   │   └── style.css
+│   ├── img
+│   │   ├── colours.jpg
+│   │   ├── figmaprototype.png
+│   │   ├── Login.png
+│   │   ├── logo.jfif
+│   │   ├── logoLaboratoria.png
+│   │   ├── logoLaboratoriasmall.png
+│   │   ├── mockup1.jfif
+│   │   ├── mockup2.jfif
+│   │   └── typography.png
+│   ├── js
+│   │   ├── login.js
+│   │   └── main.js
+│   ├── views
+│   │   └── page2.html
 │   ├── data.js
-│   ├── index.html
-│   ├── login.js
-│   ├── main.js
-│   ├── page2.html
-│   └── style.css
+│   └── index.html
 └── test
-|   ├── data.spec.js
-|   ├── fixtures.js
-|   ├── headless.js
-|   └── index.html
-└── ux
-    └── README.md
+    ├── data.spec.js
+    ├── fixtures.js
+    ├── headless.js
+    └── index.html
+
 ```
 
 ## API Reference
@@ -140,7 +154,7 @@ Other used tools:
 ## Build status
 
 ------------------------------------------------------------------------------------------------
-Laboratoria Analytics is still under construction. If you would like to contribute, please open a new pull request.
+Laboratoria Analytics is still under construction.
 
 ## Contribute
 

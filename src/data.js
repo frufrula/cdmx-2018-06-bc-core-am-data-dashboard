@@ -9,105 +9,140 @@ const json = 'https://raw.githubusercontent.com/lindatablerosgessner/cdmx-2018-0
 // en formato JSON. ".json" traduce ese formato. Si la primera promesa(función) es cumplida(true), se pasa a la
 // segunda promesa(función ".then") de agarrar el data(laboratoria)
 // window.onload = (json) => {
-  window.onload = () => {
-    fetch(json)
-      .then(response => response.json()) // .json convierte en un objecto usable
-      .then(laboratoria => {
-        // console.log(laboratoria);
-        // computeStudentsStats(laboratoria);
-        computeStudentsStats(laboratoria);
-        computeGenerationsStats(laboratoria);
-        // console.log(computeGenerationStats(laboratoria).generation.campus);
-        // drawCampus(laboratoria);
-        // drawCampus(laboratoria); // esto llama la data
-        // drawGeneration(generation);
-      })
-    // .catch(error => {
-    //   console.log('error'); // CATCH  recibe la orden de ser ejecutado, si las dos promesas anteriores no fueron cumplidas
-    // });
-  };
-
-
-window.computeStudentsStats = (laboratoria) => {
-
-  const students = [];
-
-  const student = {
-    name: null,
-    email: null,
-    campus: null,
-    generation: null,
-    stats: stats
-  }
-
-  const stats = {
-    status: null,
-    completePercentage: null,
-    topics: topics
-  }
-
-  const topics = {
-    completedPercentage: null,
-    percentageDuration: null,
-    subtopics: subtopics
-  }
-
-  const subtopics = {
-    completedPercentageSubtopics: null,
-    type: null,
-    duration: null
-  }
-
+window.onload = () => {
+  fetch(json)
+    .then(response => response.json()) // .json convierte en un objecto usable
+    .then(laboratoria => {
+      // console.log(laboratoria);
+      // computeStudentsStats(laboratoria);
+      // computeStudentsStats(laboratoria);
+      computeGenerationsStats(laboratoria);
+      // console.log(computeGenerationStats(laboratoria).generation.campus);
+      // drawCampus(laboratoria);
+      // drawCampus(laboratoria); // esto llama la data
+      // drawGeneration(generation);
+    })
+  // .catch(error => {
+  //   console.log('error'); // CATCH  recibe la orden de ser ejecutado, si las dos promesas anteriores no fueron cumplidas
+  // });
 };
 
+
+// window.computeStudentsStats = (laboratoria) => {
+
+//   const students = [];
+
+//   const student = {
+//     name: null,
+//     email: null,
+//     campus: null,
+//     generation: null,
+//     stats: stats
+//   }
+
+//   const stats = {
+//     status: null,
+//     completePercentage: null,
+//     topics: topics
+//   }
+
+//   const topics = {
+//     completedPercentage: null,
+//     percentageDuration: null,
+//     subtopics: subtopics
+//   }
+
+//   const subtopics = {
+//     completedPercentageSubtopics: null,
+//     type: null,
+//     duration: null
+//   }
+
+// };
+
 window.computeGenerationsStats = (laboratoria) => {
+
   const generations = {
-    generationE: null,
+    generation: null,
     campus: null,
     count: null,
     average: null
   };
-// console.log(generation);
-
-for (keyCampus in laboratoria) {
-
-  generations.campus = keyCampus;
-  // console.log(keyCampus);
-  // console.log(generation.campus);
-  const campuses = Object.keys(keyCampus)
-  // console.log(campuses);
-  // console.log(generation.campus);
-  // console.log(generation);
-};
-
-const allGenerations = Object.keys(laboratoria.lima.generacion);
-    // console.log(generation);
-    // console.log(allGenerations);
-    // generation.generation = allGenerations;
-    // console.log(generation.generation);
-    // console.log(generation);
-      // if (object.hasOwnProperty(key)) {
-      //   const campuses = object[key];
-    // }
-
-// const limaGenerations = Object.keys(laboratoria.lima.generacion);
-const allGenerations = (laboratoria[keyCampus].generacion);
-// console.log(laboratoria[keyCampus].generacion);
-
-for (keyGen in allGenerations) {
-  generations.generation = keyGen;
   // console.log(generations);
+
+  for (keyCampus in laboratoria) {
+
+    generations.campus = keyCampus;
+    // console.log(keyCampus);
+    // console.log(generations.campus);
+    const campuses = Object.keys(keyCampus)
+    // console.log(campuses);
+    // console.log(generations.campus);
+    // console.log(generations);
+  };
+
+  // const limaGenerations = Object.keys(laboratoria.lima.generacion);
+  const allGenerations = (laboratoria[keyCampus].generacion);
+  // console.log(laboratoria[keyCampus].generacion);
+
+  for (keyGen in allGenerations) {
+
+    generations.generation = keyGen;
+    // console.log(generations);
+    // console.log(keyGen);
+
+
+    // console.log(laboratoria[keyCampus].generacion[keyGen].estudiantes);
+    const students = (laboratoria[keyCampus].generacion[keyGen].estudiantes); //ARREGLO DE ESTUDIANTES!!!!
+    // console.log(students[keyGen].estudiantes);
+    // console.log(students);
+
+    generations.count = students.length
+    // console.log(generations.count);
+
+    students.forEach((student) => {
+        console.log(students.progreso.porcentajeCompletado);
+      let totalSum = students.reduce((prev, current) => {
+        return prev + current.progreso.porcentajeCompletado;
+      }, 0);
+      generations.average = Math.round(totalSum / generations.count);
+      // console.log(generations);
+      // arrayGenerations.push(generations);
+    });
+  };
+
+
 }
 
-const students = (laboratoria[keyCampus].generacion[keyGen].estudiantes); //ARREGLO DE ESTUDIANTES!!!!
-// console.log(students[keyGen].estudiantes);
-// console.log(students);
-
-generations.count = students.length
-// console.log(generations);
 
 
-};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
