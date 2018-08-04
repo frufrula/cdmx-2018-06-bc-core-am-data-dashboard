@@ -2,7 +2,7 @@
 # Laboratoria Analytics
 
 ------------------------------------------------------------------------------------------------
-![Login](Login.png)
+![Login](src/img/Login.png)
 
 ## Introduction
 
@@ -37,20 +37,20 @@ That is why it is important to supervise students advances reading time and comp
 ## Interview
 
 ------------------------------------------------------------------------------------------------
-An interview was held with one of the Training Managers of the Mexico City Campus, Lucile Baratier, in which she stated, that currently the staff was using spreadsheets of Excel, making a full analysis of a students progress very tedious. Sometimes they would have too many documents open to compare data or keep track of tendencies. This is why a data dashboard would be so useful to all the Laboratoria Staff, not only the Training Manager.
+An interview was held with one of the Training Managers of the Mexico City Campus, Lucile Baratier, in which she stated, that the staff was currently using Excel spreadsheets, making a full analysis of a students progress extremly tiresome. On occasions they would have to open too many documents in order to compare data or keep track of tendencies. This is why a data dashboard would be so useful to all the Laboratoria Staff, not only the Training Manager.
 
-Lucile also expressed how helpful it would be to be able to compare the statistics of the different campuses, so teaching strategies and other dynamics could be adjusted.
+Lucile also expressed how helpful it would be to be able to compare the statistics of different campuses, so teaching strategies and other dynamics could be adjusted.
 
-Having to count the students, oversee their assistance and general progress in different spreadsheets obstructs a more agile work pace, thus, one of the most needed features would be a table, where all the students can be displayed, filters by generation and campus.
+Having to count the students, oversee their assistance and general progress in different spreadsheets obstructs a more agile work pace, thus, one of the most needed features would be a table, where all the students can be displayed and filtered by generation and campus.
 
-To be able to sort the students by name, last name, progress and activeness would be a major plus. Also, a detailed student would be very helpful, as the coaches and training manager need to supervise specific cases.
+She also expressed the need to sort the students by name, last name, progress and activeness, as well as a detailed student profile to be able to supervise specific cases.
 
-Interview: !video[Interview](https://github.com/lindatablerosgessner/cdmx-2018-06-bc-core-am-data-dashboard/tree/master/img/Entrevista-Lucile.mp4)
+[SEE INTERVIEW](https://youtu.be/Si__X0d8j3g)
 
 ## The Data
 
 ------------------------------------------------------------------------------------------------
-The given data includes in total three generations, the third, the fourth and the fifth of three campuses, Lima, Sangtiago and Mexico, in which we can find information about each student, such as the name, the e-mail address and their current LMS progress status.
+The given data includes three generationsin total: The third, the fourth and the fifth of three campuses, Lima, Sangtiago and Mexico, in which we can find information about each student, such as the name, the e-mail address and their current LMS progress status.
 Departing from this status, a average of each generation and campus should be calculated.
 
 Furthermore, detailed information about reading time and completion on topics and subtopics is given for each student.
@@ -62,37 +62,39 @@ After the interview a sketch was elaborated, based on the obtained information, 
 
 ### Colours and Typography
 
-![Colours](colours.png)
-![Typography](typography.png)
+![Colours](src/img/colours.jpg)
+![Typography](src/img/typography.png)
 
 [Laboratoria Official Colour and Typography Guide](https://www.behance.net/gallery/62847359/Laboratoria-Re-Branding)
 
 ### Sketch
 
-![Mockup 1](mockup1.jfif)
-![Mockup 2](mockup2.jfif)
+![Mockup 1](src/img/mockup1.jfif)
+![Mockup 2](src/img/mockup2.jfif)
 
 ### Branding
 
-![Logo](logoLaboratoria.png)
+![Logo](src/img/logoLaboratoria.png)
 
 ### High Fidelity Prototype
 
 After a fast sketch, always keeping in mind the users needs, a high fidelity prototype was designed.
 
-![Figma](figmaprototype.png)
+![Figma](src/img/figmaprototype.png)
 
 ## Tech/framework used
 
-------------------------------------------------------------------------------------------------Built with:
+------------------------------------------------------------------------------------------------
+Built with:
 
-*HTML5
-*CSS3
-*Javascript
-*Visual Code Studio
+* HTML5
+* CSS3
+* Javascript
+* Visual Code Studio
 
 Other used tools:
-*Figma
+
+* Figma
 
 ## Table of Contents
 
@@ -106,24 +108,33 @@ Other used tools:
 ├── README.md
 ├── data
 │   └── laboratoria.json
-├── img
-│   ├── logoLaboratoria.png
-│   ├── logoLaboratoriasmall.png
 ├── package.json
 ├── src
+│   ├── css
+│   │   └── style.css
+│   ├── img
+│   │   ├── colours.jpg
+│   │   ├── figmaprototype.png
+│   │   ├── Login.png
+│   │   ├── logo.jfif
+│   │   ├── logoLaboratoria.png
+│   │   ├── logoLaboratoriasmall.png
+│   │   ├── mockup1.jfif
+│   │   ├── mockup2.jfif
+│   │   └── typography.png
+│   ├── js
+│   │   ├── login.js
+│   │   └── main.js
+│   ├── views
+│   │   └── page2.html
 │   ├── data.js
-│   ├── index.html
-│   ├── login.js
-│   ├── main.js
-│   ├── page2.html
-│   └── style.css
+│   └── index.html
 └── test
-|   ├── data.spec.js
-|   ├── fixtures.js
-|   ├── headless.js
-|   └── index.html
-└── ux
-    └── README.md
+    ├── data.spec.js
+    ├── fixtures.js
+    ├── headless.js
+    └── index.html
+
 ```
 
 ## API Reference
@@ -141,7 +152,7 @@ Other used tools:
 ## Build status
 
 ------------------------------------------------------------------------------------------------
-Laboratoria Analytics is still under construction. If you would like to contribute, please open a new pull request.
+Laboratoria Analytics is still under construction.
 
 ## Contribute
 
