@@ -9,7 +9,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 
 <body>
@@ -23,6 +25,7 @@
         </button>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
+          <img src="../img/logo.jfif" id="main-logo" alt="Main Logo" height="40">
         <form class="navbar-form navbar-left" action="#">
           <div class="form-group">
             <input type="text" class="form-control" placeholder="Buscar...">
@@ -39,33 +42,36 @@
               <span class="glyphicon glyphicon-cog"></span> Configuración</a>
           </li>
           <li>
-            <a href="index.html">
+            <a href="../index.html">
               <span class="glyphicon glyphicon-log-in"></span> Cerrar Sesión</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <article>
+  <main>
     <div class="container-fluid text-center">
       <div class="row content">
         <div class="col-sm-2 sidenav">
+            <img src="../img/logoLaboratoriasmall.png" id="analytics-logo" alt="Analytics Logo" height="40">
           <ul id="sidebarLinks" class="w3-bar-block">
-            <li href="#" class="w3-bar-item w3-button w3-border-bottom">Inicio</li>
-            <li href="#" class="w3-bar-item w3-button w3-border-bottom">Seguimiento</li>
+            <li class="w3-bar-item w3-button w3-border-bottom"><a href="#"></a>Inicio</li>
+            <li class="w3-bar-item w3-button w3-border-bottom"><a href="#"></a>Seguimiento</li>
             <li class="w3-bar-item w3-button w3-border-bottom" id="card-link">Cambiar País/Gen.</li>
             <!-- ICONOS...anteriores
               <p><span class="glyphicon glyphicon-home"></span><a href="#">  Home</a></p>
               <p><span class="glyphicon glyphicon-bookmark"></span><a href="#">  Seguimiento</a></p>
               <p><span class="glyphicon glyphicon-dashboard"></span><a href="#">  Cambiar País y/o Sede</a></p> -->
           </ul>
-
+          <!-- <div id="btnwrapper">
+            <button id="campusMexico" type="button" class="btn btn-primary btn-lg">México</button>
+            <button id="campusSantiago" type="button" class="btn btn-primary btn-lg">Santiago</button>
+            <button id="campusLima" type="button" class="btn btn-primary btn-lg">Lima</button>
+        </div> -->
           <div class="card none" id="card-form">
             <div class="card-body">
               <form class="sidebar-form">
-                <font size="5">
                   <b>Sede</b>
-                </font>
                 <select class="shadow p-3 mb-5 bg-white rounded" id="selectCampus">
                   <option value="">Lima</option>
                   <option value="">México</option>
@@ -75,9 +81,7 @@
               </form>
 
               <form class="sidebar-form">
-                <font size="5">
                   <b>Generación</b>
-                </font>
                 <select class="shadow p-3 mb-5 bg-white rounded" id="selectGen">
                   <option value="">6ta generación</option>
                   <option value="">5ta generación</option>
@@ -91,56 +95,29 @@
           </div>
         </div>
 
-        <section>
-          <!-- TABLA ESTUDIANTES A RELLENAR -->
-          <table class="table table-hover table-dark">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nombre</th>
-                <th scope="col">Turno</th>
-                <th scope="col">LMS Total</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Verena García</td>
-                <td>AM</td>
-                <td>52%</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Steph Perlie</td>
-                <td>AM</td>
-                <td>78%</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Trinidad Torres</td>
-                <td>AM</td>
-                <td>24%</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
+        <div id="container">
+        </div>
 
         <aside>
           <!-- GRAFICAS Y ESTADÍSTICAS DE GENERACION POR SEDE -->
-          <div class="col-xs-2 .col-sm-2" id="divA">
-            <h1>Completitud LMS por Generación</h1>
-            <p id="prueba"></p>
+          <div class="card" style="width: 18rem;" id="divA">
+            <div class="card-body">
+              <h3 class="card-title">Completitud LMS por Generación</h3>
+              <p id="prueba" class="card-text">Lorem ipsum</p>
+            </div>
           </div>
-          <div class="col-xs-2 .col-sm-2" id="divB">
-            <h1>Tiempo promedio</h1>
-            <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.</p>
+          <div class="card" style="width: 18rem;" id="divB">
+            <div class="card-body">
+              <h3 class="card-title">Tiempo promedio</h3>
+              <p class="card-text">Lorem Ipsum</p>
+            </div>
           </div>
         </aside>
       </div>
     </div>
-  </article>
-  <script src="data.js"></script>
-  <script src="main.js"></script>
+  </main>
+  <script src="../js/data.js"></script>
+  <script src="../js/main.js"></script>
 </body>
 
 </html>
