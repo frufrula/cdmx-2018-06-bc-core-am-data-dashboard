@@ -62,25 +62,25 @@ After the interview a sketch was elaborated, based on the obtained information, 
 
 ### Colours and Typography
 
-![Colours](colours.png)
-![Typography](typography.png)
+![Colours](src/img/colours.png)
+![Typography](src/img/typography.png)
 
 [Laboratoria Official Colour and Typography Guide](https://www.behance.net/gallery/62847359/Laboratoria-Re-Branding)
 
 ### Sketch
 
-![Mockup 1](mockup1.jfif)
-![Mockup 2](mockup2.jfif)
+![Mockup 1](src/img/mockup1.jfif)
+![Mockup 2](src/img/mockup2.jfif)
 
 ### Branding
 
-![Logo](logoLaboratoria.png)
+![Logo](src/img/logoLaboratoria.png)
 
 ### High Fidelity Prototype
 
 After a fast sketch, always keeping in mind the users needs, a high fidelity prototype was designed.
 
-![Figma](figmaprototype.png)
+![Figma](src/img/figmaprototype.png)
 
 ## Tech/framework used
 
