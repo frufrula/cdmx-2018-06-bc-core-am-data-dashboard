@@ -2,7 +2,7 @@
 # Laboratoria Analytics
 
 ------------------------------------------------------------------------------------------------
-![Login](img/Login.png)
+![Login](src/img/Login.png)
 
 ## Introduction
 
