@@ -2,7 +2,7 @@
 # Laboratoria Analytics
 
 ------------------------------------------------------------------------------------------------
-![Login](Login.png)
+![Login](img/Login.png)
 
 ## Introduction
 
@@ -84,15 +84,16 @@ After a fast sketch, always keeping in mind the users needs, a high fidelity pro
 
 ## Tech/framework used
 
-------------------------------------------------------------------------------------------------Built with:
+------------------------------------------------------------------------------------------------
+Built with:
 
-*HTML5
-*CSS3
-*Javascript
-*Visual Code Studio
+* HTML5
+* CSS3
+* Javascript
+* Visual Code Studio
 
 Other used tools:
-*Figma
+* Figma
 
 ## Table of Contents
 
