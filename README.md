@@ -45,7 +45,7 @@ Having to count the students, oversee their assistance and general progress in d
 
 To be able to sort the students by name, last name, progress and activeness would be a major plus. Also, a detailed student would be very helpful, as the coaches and training manager need to supervise specific cases.
 
-[SEE INTERVIEW](https://youtu.be/Si__X0d8j3g)
+Interview: !video[Interview](https://github.com/lindatablerosgessner/cdmx-2018-06-bc-core-am-data-dashboard/tree/master/img/Entrevista-Lucile.mp4)
 
 ## The Data
 
@@ -84,8 +84,7 @@ After a fast sketch, always keeping in mind the users needs, a high fidelity pro
 
 ## Tech/framework used
 
-------------------------------------------------------------------------------------------------
-Built with:
+------------------------------------------------------------------------------------------------Built with:
 
 *HTML5
 *CSS3
@@ -107,33 +106,24 @@ Other used tools:
 ├── README.md
 ├── data
 │   └── laboratoria.json
+├── img
+│   ├── logoLaboratoria.png
+│   ├── logoLaboratoriasmall.png
 ├── package.json
 ├── src
-│   ├── css
-│   │   └── style.css
-│   ├── img
-│   │   ├── colours.png
-│   │   ├── figmaprototype.png
-│   │   ├── Login.png
-│   │   ├── logo.jfif
-│   │   ├── logoLaboratoria.png
-│   │   ├── logoLaboratoriasmall.png
-│   │   ├── mockup1.jfif
-│   │   ├── mockup2.jfif
-│   │   └── typography.png
-│   ├── js
-│   │   ├── data.js
-│   │   ├── login.js
-│   │   └── main.js
-│   ├── views
-│   │   └── page2.html
-│   └── index.html
+│   ├── data.js
+│   ├── index.html
+│   ├── login.js
+│   ├── main.js
+│   ├── page2.html
+│   └── style.css
 └── test
-    ├── data.spec.js
-    ├── fixtures.js
-    ├── headless.js
-    └── index.html
-
+|   ├── data.spec.js
+|   ├── fixtures.js
+|   ├── headless.js
+|   └── index.html
+└── ux
+    └── README.md
 ```
 
 ## API Reference
