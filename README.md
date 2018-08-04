@@ -41,24 +41,26 @@ An interview was held with one of the Training Managers of the Mexico City Campu
 
 Lucile also expressed how helpful it would be to be able to compare the statistics of different campuses, so teaching strategies and other dynamics could be adjusted.
 
+
 Having to count the students, oversee their assistance and general progress in different spreadsheets obstructs a more agile work pace, thus, one of the most needed features would be a table, where all the students can be displayed and filtered by generation and campus.
 
 She also expressed the need to sort the students by name, last name, progress and activeness, as well as a detailed student profile to be able to supervise specific cases.
 
 [SEE INTERVIEW](https://youtu.be/u2U9bEp9p74)
 
+
 ## The Data
 
 ------------------------------------------------------------------------------------------------
-The given data includes three generations in total: The third, the fourth and the fifth of three campuses, Lima, Sangtiago and Mexico, in which we can find information about each student, such as the name, the e-mail address and their current LMS progress status.
-Departing from this status, a average of each generation and campus should be calculated.
+The given data includes in total three generations, the third, the fourth and the fifth of three campuses, Lima, Sangtiago and Mexico, in which we can find information about each student, such as the name, the e-mail address and their current LMS progress status.
+Departing from this status, an average of each generation and campus should be calculated.
 
 Furthermore, detailed information about reading time and completion on topics and subtopics is given for each student.
 
 ## Design, sketch and prototype
 
 ------------------------------------------------------------------------------------------------
-After the interview a sketch was elaborated, based on the obtained information, like needs and painpoint, accesability and easy use.
+After the interview a sketch was elaborated, based on the obtained information, like needs and painpoint, accesability and agile use.
 
 ### Colours and Typography
 
