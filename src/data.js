@@ -73,7 +73,7 @@ window.computeGenerationsStats = (laboratoria) => {
   for (keyCampus in laboratoria) {
 
     generations.campus = keyCampus;
-    console.log(keyCampus);
+    // console.log(keyCampus);
     // console.log(generations.campus);
     const campuses = Object.keys(keyCampus)
     // console.log(campuses);
@@ -86,20 +86,33 @@ window.computeGenerationsStats = (laboratoria) => {
   // console.log(laboratoria[keyCampus].generacion);
 
   for (keyGen in allGenerations) {
+
     generations.generation = keyGen;
     // console.log(generations);
     // console.log(keyGen);
-  
 
-  console.log(laboratoria[keyCampus].generacion[keyGen].estudiantes);
-  const students = (laboratoria[keyCampus].generacion[keyGen].estudiantes); //ARREGLO DE ESTUDIANTES!!!!
-  // console.log(students[keyGen].estudiantes);
-  // console.log(students);
 
-  generations.count = students.length
-  console.log(generations.count);
- }
-};
+    // console.log(laboratoria[keyCampus].generacion[keyGen].estudiantes);
+    const students = (laboratoria[keyCampus].generacion[keyGen].estudiantes); //ARREGLO DE ESTUDIANTES!!!!
+    // console.log(students[keyGen].estudiantes);
+    // console.log(students);
+
+    generations.count = students.length
+    // console.log(generations.count);
+
+    students.forEach((student) => {
+        console.log(students.progreso.porcentajeCompletado);
+      let totalSum = students.reduce((prev, current) => {
+        return prev + current.progreso.porcentajeCompletado;
+      }, 0);
+      generations.average = Math.round(totalSum / generations.count);
+      // console.log(generations);
+      // arrayGenerations.push(generations);
+    });
+  };
+
+
+}
 
 
 

@@ -45,12 +45,12 @@ Having to count the students, oversee their assistance and general progress in d
 
 She also expressed the need to sort the students by name, last name, progress and activeness, as well as a detailed student profile to be able to supervise specific cases.
 
-[SEE INTERVIEW](https://youtu.be/Si__X0d8j3g)
+[SEE INTERVIEW](https://youtu.be/u2U9bEp9p74)
 
 ## The Data
 
 ------------------------------------------------------------------------------------------------
-The given data includes three generationsin total: The third, the fourth and the fifth of three campuses, Lima, Sangtiago and Mexico, in which we can find information about each student, such as the name, the e-mail address and their current LMS progress status.
+The given data includes three generations in total: The third, the fourth and the fifth of three campuses, Lima, Sangtiago and Mexico, in which we can find information about each student, such as the name, the e-mail address and their current LMS progress status.
 Departing from this status, a average of each generation and campus should be calculated.
 
 Furthermore, detailed information about reading time and completion on topics and subtopics is given for each student.
